@@ -1,0 +1,3 @@
+<section class="auth card"><div class="eyebrow">КОНТАКТЫ ПОД РУКОЙ</div><h1>Вход в приложение</h1><p class="muted">Загружайте базы и приводите контакты к единому виду.</p>
+<?php if (!empty($error)): ?><div class="error" role="alert"><?= $e($error) ?></div><?php endif ?>
+<form method="post" action="<?= $e($url('login')) ?>" class="stack"><?= self::csrf() ?><label>Логин<input name="login" autocomplete="username" required autofocus></label><label>Пароль<input type="password" name="password" autocomplete="current-password" required></label><button class="button primary">Войти в рабочее пространство →</button></form></section>

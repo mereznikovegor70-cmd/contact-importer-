@@ -1,0 +1,7 @@
+.imports-table{min-width:720px}
+.imports-table th:first-child{min-width:290px}
+.imports-table td:first-child{min-width:290px}
+.raw-table td,.raw-table th{min-width:190px}
+.source-preview{max-height:360px}
+.source-preview th{position:sticky;top:0;z-index:1}
+@media(max-width:760px){.import-card .form-row>.grow{flex-basis:100%}.import-card .form-row>.button{width:100%}}

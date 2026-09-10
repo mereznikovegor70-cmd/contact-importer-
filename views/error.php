@@ -1,0 +1,1 @@
+<section class="card auth"><div class="eyebrow">УВЕДОМЛЕНИЕ</div><h1><?= $e($title) ?></h1><p><?= $e($message) ?></p><div class="actions"><button class="button" type="button" data-back>Вернуться назад</button><a class="button primary" href="index.php">К базам контактов</a></div></section>

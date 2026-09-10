@@ -1,0 +1,8 @@
+{
+  "name": "contacts/importer",
+  "description": "Contact imports for PHP 8.3 and MySQL 5.7",
+  "type": "project",
+  "require": {"php": "~8.3.0", "ext-pdo": "*", "ext-pdo_mysql": "*", "ext-curl": "*", "ext-mbstring": "*", "phpoffice/phpspreadsheet": "^5.0"},
+  "autoload": {"psr-4": {"Contacts\\": "app/"}},
+  "config": {"sort-packages": true, "allow-plugins": false}
+}
